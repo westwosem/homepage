@@ -14,82 +14,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+    <link rel="stylesheet" href="./assets/styles/index.css" >
 
     <link rel="me" href="http://kulik-dev.com/" type="text/html">
     <link rel="me" href="mailto:kulikkv@gmail.com">
     <link rel="me" href="sms:+380636298710">
     <title>Kulik Konstantin — Résumé</title>
-    <style>
-      body{
-        background-color: #EDF0F5;
-        font-family: 'Roboto', sans-serif;
-      }
-      .container .block{
-        background-color: #fff;
-        border-radius: 0.45rem;
-      }
-      h2, h3 {
-        color: #5BAADD;
-      }
-      /* header */
-      #photo img{
-        width: 100%;
-        border-color: #5BAADD !important;
-        border-width: 0.25rem !important;
-      }
-      #container-name-position h1{
-        font-weight: bold;
-      }
-      #container-name-position{
-        text-align: center;
-      }
-      /* // Small devices (landscape phones, 576px and up) */
-      @media (min-width: 576px) {
-        #container-name-position h1{
-          font-size: 3rem;
-        }
-
-      }
-
-      /* // Medium devices (tablets, 768px and up) */
-      @media (min-width: 768px) {
-        #container-name-position h1{
-        }
-
-      }
-
-      /* // Large devices (desktops, 992px and up) */
-      @media (min-width: 992px) {
-        #photo{
-          margin-left: 3rem;
-        }
-        #container-name-position{
-          text-align: left;
-        }
-        #container-name-position h1{
-          font-weight: bold;
-          font-size: 6rem;
-        }
-
-      }
-
-      #container-name-position h2{
-        font-style: italic;
-        font-size: 2rem;
-        font-weight: 100;
-      }
-      /* Info block */
-      #container-info-contacts ul,.block-skills ul,  .block-other-info ul{
-        padding: 0rem;
-        list-style: none;
-      }
-      /* Technical skills */
-      .block-skill{
-        width: 100%;
-        background-color: #5baadd;
-        color:#fff
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -120,16 +50,16 @@
                   Phone: +38(063)62-98-710
                 </li>
                 <li id="Email" class="contact-info-block">
-                  Email: kulikkv@gmail.com
+                  Email: <a href="mailto:kulikkv@gmail.com">kulikkv@gmail.com</a>
                 </li>
                 <li id="telegramm" class="contact-info-block">
-                  Telegramm: https://t.me/westwosem
+                  Telegramm: <a href="https://t.me/westwosem" target="_blank">@westwosem</a>
                 </li>
                 <li id="skype" class="contact-info-block">
                   Skype: fukchi
                 </li>
                 <li id="linkedin" class="contact-info-block">
-                  Linkedin: www.linkedin.com/in/kulik-konstantin
+                  Linkedin: <a href="https://www.linkedin.com/in/kulik-konstantin" target="_blank">www.linkedin.com/in/kulik-konstantin</a>
                 </li>
               </ul>
             </p>
@@ -161,8 +91,16 @@
           <div class="container-timline">
             <h3>Work Expereience</h3>
             <div class="block-timline-item">
-              <h4>Remote Joomla developer</h4>
-              <span class="time">03.2015 – Present time</span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-8 ">
+                    <h4>Remote Joomla developer</h4>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4 ">
+                    <span class="time font-weight-bold">03.2015 – Present time</span>
+                  </div>
+                </div>
+              </div>
               <ul>
                 <li>Updating a custom theme to specific customer needs.</li>
                 <li>Working with a PayBox payment API to receive payments for the subscriptions.</li>
@@ -176,9 +114,17 @@
               </p>
             </div>
             <div class="block-timline-item">
-              <h4>Freelance Wordpress developer.</h4>
-              <span class="time">03.2015 – Present time</span>
-              <span class="addition-info"></span>   Méthode Bernachon family of website
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-8 ">
+                    <h4>Freelance Wordpress developer.</h4>
+                    <span class="addition-info text-muted">Méthode Bernachon family of website</span>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4 ">
+                    <span class="time font-weight-bold">03.2015 – Present time</span>
+                  </div>
+                </div>
+              </div>
               <ul>
                 <li>Developing WordPress templates from scratch</li>
                 <li>Developing and modifying plugins</li>
@@ -190,9 +136,17 @@
               </p>
             </div>
             <div class="block-timline-item">
-              <h4>Сhief Technologist</h4>
-              <span class="time">03.2008 – 06.2014</span>
-              <span class="addition-info">Institute of Technical Thermophysics of National Academy of Science of Ukraine. Heat Supply Process and Technologies Department.</span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-8 ">
+                    <h4>Сhief Technologist</h4>
+                    <span class="addition-info text-muted">Institute of Technical Thermophysics of National Academy of Science of Ukraine. Heat Supply Process and Technologies Department.</span>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4 ">
+                    <span class="time font-weight-bold">03.2008 – 06.2014</span>
+                  </div>
+                </div>
+              </div>
               <ul>
                 <li>
                   Analyzing and researching the new methods of energy saving;
